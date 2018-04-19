@@ -6,7 +6,7 @@
   <link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri() . "/favicon.png"; ?>">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  <?php wp_head(); ?>
+	 <?php wp_head(); ?>
 </head>
 <body>
 
@@ -17,7 +17,7 @@
 
           <a href="http://github.com/joemalott"><i class="fa fa-github" aria-hidden="true"></i></a><br>
           <a href="http://behance.net/joemalott"><i class="fa fa-behance" aria-hidden="true"></i></a><br>
-          <a href="http://vimeo.com.joemalott"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+          <a href="http://vimeo.com/joemalott"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
 
 
         </div>
