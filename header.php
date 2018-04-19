@@ -17,7 +17,7 @@
 
           <a href="http://github.com/joemalott"><i class="fa fa-github" aria-hidden="true"></i></a><br>
           <a href="http://behance.net/joemalott"><i class="fa fa-behance" aria-hidden="true"></i></a><br>
-          <a href="http://vimeo.com/joemalott"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
+          <a href="http://vimeo.com/user16060308"><i class="fa fa-vimeo" aria-hidden="true"></i></a>
 
 
         </div>
