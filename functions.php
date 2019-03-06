@@ -7,8 +7,8 @@ function joetheme_scripts() {
     wp_enqueue_style( 'normalize', 'https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css' );
 
     wp_enqueue_style( 'style', get_stylesheet_uri(), array(), rand(1,9999) );
-    // wp_enqueue_script( 'joetheme-jquery', get_template_directory_uri() . '/js/jquery-3.3.1.min.js', array(), true, true );
-    // wp_enqueue_script( 'flowtype', get_template_directory_uri() . '/js/flowtype.js', array(), true, true );
+   
+    wp_enqueue_script( 'blazy', get_template_directory_uri() . '/js/blazy.min.js', array(), true, true );
     wp_enqueue_script( 'app', get_template_directory_uri() . '/js/app.js', array(), true, true );
 }
 add_action( 'wp_enqueue_scripts', 'joetheme_scripts' );
@@ -37,6 +37,14 @@ function joetheme_custom_excerpt_length( $length ) {
     return 20;
 }
 add_filter( 'excerpt_length', 'joetheme_custom_excerpt_length', 999 );
+
+
+
+
+
+
+// disable Gutenberg Editor for posts
+add_filter('use_block_editor_for_post', '__return_false', 10);
 
 
 

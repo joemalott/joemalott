@@ -1,8 +1,3 @@
-<span>&nbsp; <br><br><br></span>
-
-
-</div>
-
 
 <script
   src="https://code.jquery.com/jquery-3.3.0.slim.min.js"
